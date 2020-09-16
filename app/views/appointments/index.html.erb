@@ -1,0 +1,4 @@
+<h2>All Appointments</h2>
+<% @appointments.each do |appt| %>
+  <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+<% end %>
