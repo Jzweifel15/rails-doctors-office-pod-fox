@@ -8,23 +8,33 @@ class AppointmentsController < ApplicationController
   def show 
   end
 
-  def create
-    @appointment = Appointment.new(appointment_params)
-	  @appointment.save
-	  redirect_to appointment_path(@appointment)
+  def new
+    @appointment = Appointment.new
   end
 
   def edit
   end
 
+  def create
+    @appointment = Appointment.new(appointment_params)
+    if @appointment.save
+      redirect_to appointment_path(@appointment)
+    else
+      render :new
+    end
+  end
+
   def update
-    @appointment.update(appointment_params)
-    redirect_to appointment_path(@appointment)
+    if @appointment.update(appointment_params)
+      redirect_to appointment_path(@appointment)
+    else 
+      render :edit
+    end
   end
 
   def destroy
     @appointment.destroy
-    redirect_to appointments_path
+    redirect_to appointment_path(@appointment)
   end
 
 
