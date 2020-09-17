@@ -8,10 +8,18 @@ class AppointmentsController < ApplicationController
   def show 
   end
 
+  def create
+    @appointment = Appointment.new(appointment_params)
+	  @appointment.save
+	  redirect_to song_path(@appointment)
+  end
+
   def edit
   end
 
   def update
+    @appointment.update(appointment_params)
+    redirect_to song_path(@appointment)
   end
 
   private
@@ -20,4 +28,7 @@ class AppointmentsController < ApplicationController
     @appointment = Appointment.find(params[:id])
   end
 
+  def appointment_params
+    params.require(:appointment).permit(:time, :doctor_id, :location)
+  end
 end
