@@ -776,3 +776,1124 @@ Processing by AppointmentsController#edit as HTML
 Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 6802)
 
 
+Started GET "/" for 127.0.0.1 at 2020-09-17 10:20:05 -0400
+  [1m[35m (18.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 47.1ms | Allocations: 479)
+Completed 200 OK in 157ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 2724)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:20:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:56 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:57 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 10:23:12 -0400
+  
+SyntaxError (/mnt/i/Code/rails-doctors-office-pod-fox/app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 10:23:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 6044)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 269.6ms | ActiveRecord: 2.5ms | Allocations: 20629)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:23:37 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:32:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 217.3ms | Allocations: 75225)
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.6ms | Allocations: 77153)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe2c4b1e0>:0x00007f7fbcbf4760>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:23:49 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:32:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 195.9ms | Allocations: 75171)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.4ms | Allocations: 76889)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe463ab50>:0x00007fffe4656530>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:22 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 198.9ms | Allocations: 74999)
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 2.0ms | Allocations: 81458)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007f7fb41dc4d8>:0x00007f7fb41e6a78>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 173.1ms | Allocations: 74998)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 2.1ms | Allocations: 81435)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe4301290>:0x00007fffe430a458>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:52 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 218.9ms | Allocations: 75176)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.4ms | Allocations: 76894)
+
+
+  
+ActionView::Template::Error (undefined method `destroy_appointment_path' for #<#<Class:0x00007fffe4215660>:0x00007fffe42320d0>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", destroy_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:02 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 15.1ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.4ms | Allocations: 5401)
+
+
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 10:26:04 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/edit.html.erb within layouts/application
+  Rendered appointments/edit.html.erb within layouts/application (Duration: 134.2ms | Allocations: 6173)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 186ms (Views: 182.3ms | ActiveRecord: 0.4ms | Allocations: 11063)
+
+
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:05 -0400
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"WbveBNRVb/tgdcCzbzEuqDxNwDMkLSX1ESX/7cWiBxPL5L4mmRLaWrlv5QWsZM6a1n/OWdnbxvETU6aub4CTDA==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+  [1m[36mAppointment Update (1.4ms)[0m  [1m[33mUPDATE "appointments" SET "time" = ?, "updated_at" = ? WHERE "appointments"."id" = ?[0m  [["time", "2020-09-16 19:54:57"], ["updated_at", "2020-09-17 14:26:05.934353"], ["id", 2]]
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 10.9ms | Allocations: 55733)
+
+
+  
+NoMethodError (undefined method `song_path' for #<AppointmentsController:0x00007f7fbc529b88>):
+  
+app/controllers/appointments_controller.rb:22:in `update'
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:24 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"WbveBNRVb/tgdcCzbzEuqDxNwDMkLSX1ESX/7cWiBxPL5L4mmRLaWrlv5QWsZM6a1n/OWdnbxvETU6aub4CTDA==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Redirected to http://127.0.0.1:3000/appointments/2
+Completed 302 Found in 32ms (ActiveRecord: 2.4ms | Allocations: 6528)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:24 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 47.3ms | ActiveRecord: 0.3ms | Allocations: 4942)
+
+
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/edit.html.erb within layouts/application
+  Rendered appointments/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 595)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.5ms | Allocations: 4709)
+
+
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"ttUxfsSkI/Bps6dzHdzyAfgQMc0/g0iYd480pd1OT3EkilFcieOWUbCpgsXeiRIzEiI/p8J1q5x1+W3md2zbbg==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Redirected to http://127.0.0.1:3000/appointments/2
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms | Allocations: 1178)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 0.4ms | Allocations: 3860)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:49:25 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 194.6ms | Allocations: 74463)
+Completed 500 Internal Server Error in 244ms (ActiveRecord: 2.3ms | Allocations: 82754)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007ffff62bdb28>:0x00007ffff62cd258>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:50:27 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 17.7ms | Allocations: 292)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 86ms (Views: 82.3ms | ActiveRecord: 0.6ms | Allocations: 6899)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:50:29 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 40ms (Views: 37.6ms | ActiveRecord: 0.5ms | Allocations: 4405)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:50:37 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 30.2ms | ActiveRecord: 0.4ms | Allocations: 3912)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:50:49 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 20.1ms | Allocations: 228)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 0.3ms | Allocations: 5396)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:51:07 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/views/appointments/show.html.erb:4
+  [1m[36mAppointment Destroy (2.0ms)[0m  [1m[31mDELETE FROM "appointments" WHERE "appointments"."id" = ?[0m  [["id", 2]]
+  ↳ app/views/appointments/show.html.erb:4
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/views/appointments/show.html.erb:4
+  Rendered appointments/show.html.erb within layouts/application (Duration: 58.5ms | Allocations: 4530)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 105ms (Views: 90.5ms | ActiveRecord: 11.3ms | Allocations: 9868)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 11:51:08 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 814)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 47.9ms | ActiveRecord: 0.5ms | Allocations: 5200)
+
+
+Started GET "/appointments/1" for 127.0.0.1 at 2020-09-17 11:51:09 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/views/appointments/show.html.erb:4
+  [1m[36mAppointment Destroy (1.4ms)[0m  [1m[31mDELETE FROM "appointments" WHERE "appointments"."id" = ?[0m  [["id", 1]]
+  ↳ app/views/appointments/show.html.erb:4
+  [1m[35m (10.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/views/appointments/show.html.erb:4
+  Rendered appointments/show.html.erb within layouts/application (Duration: 27.6ms | Allocations: 4327)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 54.2ms | ActiveRecord: 12.0ms | Allocations: 8672)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 11:51:11 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 598)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.4ms | Allocations: 3858)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 11:51:15 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1066)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1590)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 11:53:50 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1181)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.4ms | Allocations: 5589)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 11:53:51 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 687)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.4ms | Allocations: 3964)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 11:55:04 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 373.6ms | Allocations: 147650)
+Completed 500 Internal Server Error in 379ms (ActiveRecord: 0.6ms | Allocations: 148813)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `appointment' for #<#<Class:0x00007ffff5c081c0>:0x00007ffff5c43ae0>
+Did you mean?  @appointments):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <%= link_to "New", new_appointment_path(appointment) %>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/1" for 127.0.0.1 at 2020-09-17 11:55:13 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms | Allocations: 1103)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Appointment with 'id'=1):
+  
+app/controllers/appointments_controller.rb:34:in `set_appointments'
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 11:55:18 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1056)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 2176)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/1" for 127.0.0.1 at 2020-09-17 11:55:30 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.3ms | Allocations: 1103)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Appointment with 'id'=1):
+  
+app/controllers/appointments_controller.rb:34:in `set_appointments'
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 11:55:36 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.4ms | Allocations: 1103)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Appointment with 'id'=2):
+  
+app/controllers/appointments_controller.rb:34:in `set_appointments'
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 11:55:37 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Completed 404 Not Found in 2ms (ActiveRecord: 0.4ms | Allocations: 1103)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Appointment with 'id'=2):
+  
+app/controllers/appointments_controller.rb:34:in `set_appointments'
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:55:40 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 334.5ms | Allocations: 147544)
+Completed 500 Internal Server Error in 339ms (ActiveRecord: 0.5ms | Allocations: 148706)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_appointment_path' for #<#<Class:0x00007ffff5c8feb8>:0x00007ffff5cb8200>
+Did you mean?  appointments_new_path):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <%= link_to "New", new_appointment_path %>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 11:57:09 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1061)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1587)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 11:58:39 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1056)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2177)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:58:42 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 1689)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.4ms | Allocations: 2253)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"appointments"}, missing required keys: [:id]):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <%= link_to "New", appointment_path %>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:58:43 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1542)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.4ms | Allocations: 1968)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"appointments"}, missing required keys: [:id]):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <%= link_to "New", appointment_path %>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:59:21 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 1699)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.4ms | Allocations: 2860)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"appointments"}, missing required keys: [:id]):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <div><%= link_to "New", appointment_path %></div>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:59:42 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 338.6ms | Allocations: 147537)
+Completed 500 Internal Server Error in 343ms (ActiveRecord: 0.4ms | Allocations: 148700)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `create_appointment_path' for #<#<Class:0x00007f71710f2028>:0x00007f71710f7488>
+Did you mean?  edit_appointment_path):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <div><%= link_to "New", create_appointment_path %></div>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 11:59:51 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 363.6ms | Allocations: 147566)
+Completed 500 Internal Server Error in 376ms (ActiveRecord: 0.4ms | Allocations: 148729)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_appointment_path' for #<#<Class:0x00007ffff60e5eb8>:0x00007ffff60edd70>
+Did you mean?  appointments_new_path):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <div><%= link_to "New", new_appointment_path %></div>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 12:01:48 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 184.1ms | Allocations: 75542)
+Completed 500 Internal Server Error in 191ms (ActiveRecord: 0.5ms | Allocations: 76705)
+
+
+  
+ActionView::Template::Error (undefined method `new_appointment_path' for #<#<Class:0x00007f71707be7e0>:0x00007f71707bc1e8>
+Did you mean?  appointments_new_path):
+    2: <% @appointments.each do |appt| %>
+    3:   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
+    4: <% end %>
+    5: <div><%= link_to "New", new_appointment_path(@appointment) %></div>
+  
+app/views/appointments/index.html.erb:5
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 12:02:03 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 812)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 47.3ms | ActiveRecord: 0.4ms | Allocations: 5062)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:02:05 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1056)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1579)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:05:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 814)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1439)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/" for 127.0.0.1 at 2020-09-17 12:05:13 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 10.2ms | Allocations: 1210)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 1.3ms | Allocations: 5276)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:05:15 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 861)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1274)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:05:41 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 814)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1441)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 12:05:43 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:37:in `set_appointments'
+Completed 404 Not Found in 8ms (ActiveRecord: 1.7ms | Allocations: 2253)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Appointment with 'id'=2):
+  
+app/controllers/appointments_controller.rb:37:in `set_appointments'
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:05:47 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 679)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.5ms | Allocations: 4186)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:05:48 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 861)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1273)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:06:16 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 814)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1438)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:06:18 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 36ms (Views: 30.6ms | ActiveRecord: 1.2ms | Allocations: 4841)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:06:19 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 861)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 1273)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:06:58 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 814)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1436)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:07:01 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1202)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.9ms | Allocations: 5974)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:07:02 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 861)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1279)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:09:01 -0400
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1450)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 3129)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:09:05 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1352)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 82ms (Views: 76.6ms | ActiveRecord: 1.1ms | Allocations: 7545)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:09:06 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 863)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1282)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:10:27 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 1010)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 2197)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:10:32 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 1360)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 64ms (Views: 57.8ms | ActiveRecord: 1.3ms | Allocations: 5345)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:10:33 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 658)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.5ms | Allocations: 4154)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:10:34 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 665)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.4ms | Allocations: 3921)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:11:54 -0400
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 656)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.4ms | Allocations: 3982)
+
+
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 12:13:02 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1205)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 44ms (Views: 38.9ms | ActiveRecord: 1.0ms | Allocations: 5237)
+
+
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:13:04 -0400
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 863)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1271)
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    1: <h3>Appointment Form</h3>
+    2: 
+    3: <%= form_for(@appointment) do |f| %>
+    4:   <%= f.label :location, "Appointment Location:" %><br>
+    5:   <%= f.text_field :location %><br>
+    6:   <%= f.label :time, "Appointment Time:" %><br>
+  
+app/views/appointments/new.html.erb:3
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:14:30 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2137)
+
+
+  
+NameError (uninitialized constant AppointmentsController::Song):
+  
+app/controllers/appointments_controller.rb:12:in `new'
+Started GET "/appointments/new" for 127.0.0.1 at 2020-09-17 12:14:44 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#new as HTML
+  Rendering appointments/new.html.erb within layouts/application
+  Rendered appointments/new.html.erb within layouts/application (Duration: 9.4ms | Allocations: 1910)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 65ms (Views: 54.6ms | ActiveRecord: 1.5ms | Allocations: 11322)
+
+
