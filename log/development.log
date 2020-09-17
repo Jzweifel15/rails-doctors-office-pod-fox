@@ -776,3 +776,358 @@ Processing by AppointmentsController#edit as HTML
 Completed 200 OK in 18ms (Views: 15.2ms | ActiveRecord: 0.2ms | Allocations: 6802)
 
 
+Started GET "/" for 127.0.0.1 at 2020-09-17 10:20:05 -0400
+  [1m[35m (18.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ian/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 47.1ms | Allocations: 479)
+Completed 200 OK in 157ms (Views: 102.4ms | ActiveRecord: 0.0ms | Allocations: 2724)
+
+
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:20:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:56 -0400
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/index" for 127.0.0.1 at 2020-09-17 10:22:57 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (6.0.3.3) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.3) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.3) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.3) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.3) lib/rails/engine.rb:527:in `call'
+puma (4.3.6) lib/puma/configuration.rb:228:in `call'
+puma (4.3.6) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.6) lib/puma/server.rb:472:in `process_client'
+puma (4.3.6) lib/puma/server.rb:328:in `block in run'
+puma (4.3.6) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 10:23:12 -0400
+  
+SyntaxError (/mnt/i/Code/rails-doctors-office-pod-fox/app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+app/controllers/appointments_controller.rb:38: syntax error, unexpected end, expecting end-of-input
+Started GET "/appointments" for 127.0.0.1 at 2020-09-17 10:23:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#index as HTML
+  Rendering appointments/index.html.erb within layouts/application
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments"[0m
+  ↳ app/views/appointments/index.html.erb:2
+  Rendered appointments/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 6044)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 295ms (Views: 269.6ms | ActiveRecord: 2.5ms | Allocations: 20629)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:23:37 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:32:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 217.3ms | Allocations: 75225)
+Completed 500 Internal Server Error in 263ms (ActiveRecord: 0.6ms | Allocations: 77153)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe2c4b1e0>:0x00007f7fbcbf4760>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:23:49 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:32:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 195.9ms | Allocations: 75171)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.4ms | Allocations: 76889)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe463ab50>:0x00007fffe4656530>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:22 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 198.9ms | Allocations: 74999)
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 2.0ms | Allocations: 81458)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007f7fb41dc4d8>:0x00007f7fb41e6a78>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:35 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 173.1ms | Allocations: 74998)
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 2.1ms | Allocations: 81435)
+
+
+  
+ActionView::Template::Error (undefined method `delete_appointment_path' for #<#<Class:0x00007fffe4301290>:0x00007fffe430a458>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", delete_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:25:52 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 218.9ms | Allocations: 75176)
+Completed 500 Internal Server Error in 225ms (ActiveRecord: 0.4ms | Allocations: 76894)
+
+
+  
+ActionView::Template::Error (undefined method `destroy_appointment_path' for #<#<Class:0x00007fffe4215660>:0x00007fffe42320d0>
+Did you mean?  edit_appointment_path):
+    1: <h2>Your Appointment</h2>
+    2: <p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+    3: <%= link_to "Edit", edit_appointment_path(@appointment) %>
+    4: <%= link_to "Delete", destroy_appointment_path(@appointment) %>
+  
+app/views/appointments/show.html.erb:4
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:02 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 15.1ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.4ms | Allocations: 5401)
+
+
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 10:26:04 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/edit.html.erb within layouts/application
+  Rendered appointments/edit.html.erb within layouts/application (Duration: 134.2ms | Allocations: 6173)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 186ms (Views: 182.3ms | ActiveRecord: 0.4ms | Allocations: 11063)
+
+
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:05 -0400
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"WbveBNRVb/tgdcCzbzEuqDxNwDMkLSX1ESX/7cWiBxPL5L4mmRLaWrlv5QWsZM6a1n/OWdnbxvETU6aub4CTDA==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+  [1m[36mAppointment Update (1.4ms)[0m  [1m[33mUPDATE "appointments" SET "time" = ?, "updated_at" = ? WHERE "appointments"."id" = ?[0m  [["time", "2020-09-16 19:54:57"], ["updated_at", "2020-09-17 14:26:05.934353"], ["id", 2]]
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/appointments_controller.rb:21:in `update'
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 10.9ms | Allocations: 55733)
+
+
+  
+NoMethodError (undefined method `song_path' for #<AppointmentsController:0x00007f7fbc529b88>):
+  
+app/controllers/appointments_controller.rb:22:in `update'
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:24 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"WbveBNRVb/tgdcCzbzEuqDxNwDMkLSX1ESX/7cWiBxPL5L4mmRLaWrlv5QWsZM6a1n/OWdnbxvETU6aub4CTDA==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Redirected to http://127.0.0.1:3000/appointments/2
+Completed 302 Found in 32ms (ActiveRecord: 2.4ms | Allocations: 6528)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:24 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.3ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 72)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 62ms (Views: 47.3ms | ActiveRecord: 0.3ms | Allocations: 4942)
+
+
+Started GET "/appointments/2/edit" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.5ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/edit.html.erb within layouts/application
+  Rendered appointments/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 595)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.5ms | Allocations: 4709)
+
+
+Started PATCH "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#update as HTML
+  Parameters: {"authenticity_token"=>"ttUxfsSkI/Bps6dzHdzyAfgQMc0/g0iYd480pd1OT3EkilFcieOWUbCpgsXeiRIzEiI/p8J1q5x1+W3md2zbbg==", "appointment"=>{"location"=>"123 Main St.", "time"=>"2020-09-16 19:54:57 UTC"}, "commit"=>"Update Appointment", "id"=>"2"}
+  [1m[36mAppointment Load (0.6ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+Redirected to http://127.0.0.1:3000/appointments/2
+Completed 302 Found in 5ms (ActiveRecord: 0.6ms | Allocations: 1178)
+
+
+Started GET "/appointments/2" for 127.0.0.1 at 2020-09-17 10:26:26 -0400
+Processing by AppointmentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAppointment Load (0.4ms)[0m  [1m[34mSELECT "appointments".* FROM "appointments" WHERE "appointments"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/appointments_controller.rb:34:in `set_appointments'
+  Rendering appointments/show.html.erb within layouts/application
+  Rendered appointments/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 64)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 49ms (Views: 35.6ms | ActiveRecord: 0.4ms | Allocations: 3860)
+
+

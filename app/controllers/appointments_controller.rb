@@ -11,7 +11,7 @@ class AppointmentsController < ApplicationController
   def create
     @appointment = Appointment.new(appointment_params)
 	  @appointment.save
-	  redirect_to song_path(@appointment)
+	  redirect_to appointment_path(@appointment)
   end
 
   def edit
@@ -19,8 +19,14 @@ class AppointmentsController < ApplicationController
 
   def update
     @appointment.update(appointment_params)
-    redirect_to song_path(@appointment)
+    redirect_to appointment_path(@appointment)
   end
+
+  def destroy
+    @appointment.destroy
+    redirect_to appointments_path
+  end
+
 
   private
 
