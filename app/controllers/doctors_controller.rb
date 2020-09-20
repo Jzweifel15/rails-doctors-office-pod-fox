@@ -36,6 +36,11 @@ class DoctorsController < ApplicationController
     end
   end
 
+  def destroy
+    @doctor.destroy 
+    redirect_to doctors_path
+  end
+
   private
 
   def set_doctors

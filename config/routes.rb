@@ -15,4 +15,6 @@ Rails.application.routes.draw do
   get '/doctors/:id', to: 'doctors#show', as: 'doctor'
   get '/doctors/:id/edit', to: 'doctors#edit', as: 'edit_doctor'
   patch '/doctors/:id', to: 'doctors#update'
+  delete '/doctors/:id', to: 'doctors#destroy'
+  
 end

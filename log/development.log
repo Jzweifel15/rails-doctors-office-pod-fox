@@ -2420,3 +2420,50 @@ Processing by DoctorsController#index as HTML
 Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 4547)
 
 
+Started GET "/doctors" for ::1 at 2020-09-20 18:09:03 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 4022)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 14.4ms | ActiveRecord: 0.2ms | Allocations: 9434)
+
+
+Started GET "/doctors/1" for ::1 at 2020-09-20 18:09:06 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoctor Load (0.3ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:47:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 339)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 4864)
+
+
+Started DELETE "/doctors/1" for ::1 at 2020-09-20 18:09:09 -0400
+Processing by DoctorsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XIlc3VLkDitsMZs1B7xM6FvjeKplTOBdJvk1/e95sYG5hgQghxOOWwNw7fe1o8jFeO/P2gtE281NcfczQgn2SA==", "id"=>"1"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:47:in `set_doctors'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/doctors_controller.rb:40:in `destroy'
+  [1m[36mDoctor Destroy (0.3ms)[0m  [1m[31mDELETE FROM "doctors" WHERE "doctors"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/doctors_controller.rb:40:in `destroy'
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/doctors_controller.rb:40:in `destroy'
+Redirected to http://localhost:3000/doctors
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms | Allocations: 2724)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 18:09:09 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 744)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 4476)
+
+
