@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   patch '/appointments/:id', to: 'appointments#update'
   delete 'appointments/:id', to: 'appointments#destroy'
 
-  
+  get '/doctors', to: 'doctors#index', as: 'doctors'
+  get '/doctors/:id', to: 'doctors#show', as: 'doctor'
 end

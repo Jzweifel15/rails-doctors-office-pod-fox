@@ -1,0 +1,4 @@
+<h2>All Doctors</h2>
+<% @doctors.each do |doctor| %>
+  <p><%= link_to "#{doctor.name} - #{doctor.practice_type}", doctor_path(doctor) %></p>
+<% end %>
