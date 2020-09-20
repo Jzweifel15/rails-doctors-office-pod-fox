@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root 'appointments#index'
+
   get '/appointments', to: 'appointments#index'
   get 'appointments/new', to: 'appointments#new', as: 'create_appointment'
   post 'appointments', to: 'appointments#create'
@@ -7,5 +9,5 @@ Rails.application.routes.draw do
   patch '/appointments/:id', to: 'appointments#update'
   delete 'appointments/:id', to: 'appointments#destroy'
 
-  root 'appointments#index'
+  
 end
