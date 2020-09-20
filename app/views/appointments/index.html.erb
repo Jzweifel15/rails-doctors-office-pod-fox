@@ -2,3 +2,4 @@
 <% @appointments.each do |appt| %>
   <p><%= link_to "#{appt.location} - #{appt.time}", appointment_path(appt) %></p>
 <% end %>
+<div><%= link_to "New", create_appointment_path(@appointment) %></div>
