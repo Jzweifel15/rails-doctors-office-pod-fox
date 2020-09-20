@@ -23,6 +23,19 @@ class DoctorsController < ApplicationController
     end
   end
 
+  def edit 
+  end
+
+  def update 
+    @doctor.update(doctor_params)
+
+    if @doctor.valid?
+      redirect_to doctor_path(@doctor)
+    else
+      render :edit
+    end
+  end
+
   private
 
   def set_doctors

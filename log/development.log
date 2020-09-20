@@ -2191,3 +2191,232 @@ Processing by DoctorsController#index as HTML
 Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms | Allocations: 4507)
 
 
+Started GET "/doctors" for ::1 at 2020-09-20 17:52:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 4022)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 0.2ms | Allocations: 9441)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:52:11 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 0.2ms | Allocations: 4745)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 17:52:14 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 2.1ms | Allocations: 645)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 0.2ms | Allocations: 5038)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 17:52:26 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 1.4ms | Allocations: 405)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 4663)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 17:53:46 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 1.1ms | Allocations: 628)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 5803)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:53:48 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 226)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 4626)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 17:53:51 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 920)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 4796)
+
+
+Started GET "/doctors/new" for ::1 at 2020-09-20 17:53:52 -0400
+Processing by DoctorsController#new as HTML
+  Rendering doctors/new.html.erb within layouts/application
+  Rendered doctors/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 577)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 4446)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 17:53:54 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 786)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 4520)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:54:02 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.2ms | Allocations: 4339)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 17:54:03 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 4684)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:54:04 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.3ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.3ms | Allocations: 4342)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 17:54:05 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 784)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms | Allocations: 4513)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:54:06 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.1ms | Allocations: 4339)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 17:54:08 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 429)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 4684)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 17:59:42 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:35:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 4336)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 18:01:51 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:42:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 93)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 7.3ms | ActiveRecord: 0.6ms | Allocations: 8833)
+
+
+Started GET "/doctors/4/edit" for ::1 at 2020-09-20 18:01:52 -0400
+Processing by DoctorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:42:in `set_doctors'
+  Rendering doctors/edit.html.erb within layouts/application
+  Rendered doctors/edit.html.erb within layouts/application (Duration: 1.2ms | Allocations: 483)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 4746)
+
+
+Started PATCH "/doctors/4" for ::1 at 2020-09-20 18:02:03 -0400
+Processing by DoctorsController#update as HTML
+  Parameters: {"authenticity_token"=>"iyWAoGfjhnp/CHoauAChhdmiUpC8PJI/Z1QdccGsP2rE8j6qk1cFHoPO7klssHAVw54vtS17LPyQ9TgCA1M2cw==", "doctor"=>{"name"=>"Dr. Robotnik", "practice_type"=>"Obtain all Chaos Emeralds"}, "commit"=>"Submit", "id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:42:in `set_doctors'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/doctors_controller.rb:30:in `update'
+  [1m[36mDoctor Update (0.4ms)[0m  [1m[33mUPDATE "doctors" SET "practice_type" = ?, "updated_at" = ? WHERE "doctors"."id" = ?[0m  [["practice_type", "Obtain all Chaos Emeralds"], ["updated_at", "2020-09-20 22:02:03.694567"], ["id", 4]]
+  ↳ app/controllers/doctors_controller.rb:30:in `update'
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/doctors_controller.rb:30:in `update'
+Redirected to http://localhost:3000/doctors/4
+Completed 302 Found in 6ms (ActiveRecord: 1.2ms | Allocations: 3456)
+
+
+Started GET "/doctors/4" for ::1 at 2020-09-20 18:02:03 -0400
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:42:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 83)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 4363)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 18:02:07 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.2ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 804)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.2ms | Allocations: 4547)
+
+
