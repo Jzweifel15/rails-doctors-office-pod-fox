@@ -12,6 +12,17 @@ class DoctorsController < ApplicationController
     @doctor = Doctor.new
   end
 
+  def create
+    @doctor = Doctor.new(doctor_params)
+
+    if @doctor.valid?
+      @doctor.save
+      redirect_to doctor_path(@doctor)
+    else
+      render :new
+    end
+  end
+
   private
 
   def set_doctors
