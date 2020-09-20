@@ -8,6 +8,10 @@ class DoctorsController < ApplicationController
   def show 
   end
 
+  def new 
+    @doctor = Doctor.new
+  end
+
   private
 
   def set_doctors

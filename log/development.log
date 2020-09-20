@@ -2045,3 +2045,43 @@ Processing by DoctorsController#show as HTML
 Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.1ms | Allocations: 5267)
 
 
+Started GET "/doctors/1" for ::1 at 2020-09-20 17:35:15 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by DoctorsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors" WHERE "doctors"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/doctors_controller.rb:18:in `set_doctors'
+  Rendering doctors/show.html.erb within layouts/application
+  Rendered doctors/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 125)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 9275)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 17:35:16 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 901)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.1ms | Allocations: 4783)
+
+
+Started GET "/doctors" for ::1 at 2020-09-20 17:35:45 -0400
+Processing by DoctorsController#index as HTML
+  Rendering doctors/index.html.erb within layouts/application
+  [1m[36mDoctor Load (0.1ms)[0m  [1m[34mSELECT "doctors".* FROM "doctors"[0m
+  ↳ app/views/doctors/index.html.erb:2
+  Rendered doctors/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 878)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms | Allocations: 5526)
+
+
+Started GET "/doctors/new" for ::1 at 2020-09-20 17:35:46 -0400
+Processing by DoctorsController#new as HTML
+  Rendering doctors/new.html.erb within layouts/application
+  Rendered doctors/new.html.erb within layouts/application (Duration: 10.7ms | Allocations: 3024)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 6810)
+
+

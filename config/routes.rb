@@ -10,5 +10,6 @@ Rails.application.routes.draw do
   delete 'appointments/:id', to: 'appointments#destroy'
 
   get '/doctors', to: 'doctors#index', as: 'doctors'
+  get '/doctors/new', to: 'doctors#new', as: 'new_doctor'
   get '/doctors/:id', to: 'doctors#show', as: 'doctor'
 end
