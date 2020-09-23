@@ -1,4 +1,4 @@
 <h2>Your Appointment</h2>
-<p><%= "#{@appointment.location} - #{@appointment.time}" %></p>
+<p><%= "#{@appointment.location} - #{@appointment.time.strftime("%B %d, %Y at %H:%M")} - #{@appointment.doctor.name}" %></p>
 <%= link_to "Edit", edit_appointment_path(@appointment) %> <br>
-<%= link_to "Delete", appointment, method: :delete %>
+<%= link_to "Delete", @appointment, method: :delete %>
