@@ -1,7 +1,5 @@
-<%= form_for @appointment do |f| %>
-  <%= f.label :location, "Appointment Location:" %><br>
-  <%= f.text_field :location %><br>
-  <%= f.label :time, "Appointment Time:" %><br>
-  <%= f.text_field :time %><br>
-  <%= f.submit %>
-<% end %>
+<h1>Editing Appointment with <%=@appointment.doctor.name %></h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Cancel Editing', @song %>
